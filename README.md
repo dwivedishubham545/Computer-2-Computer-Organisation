@@ -4,23 +4,23 @@ This repository contains the documentation and simulation files for a simplified
 ###### Hardware Components
 The Basic Computer comprises the following hardware components:
 
-Memory Unit: 4096 words of 16 bits each.
+&rarr; *Memory Unit:* 4096 words of 16 bits each.
 
-Registers: Eight registers, including Address Register (AR), Program Counter (PC), Data Register (DR), Accumulator (AC), Instruction Register (IR), Temporary Register (TR), Input Register (INPR), and Output Register (OUTR).
+&rarr; *Registers:* Address Register (AR), Program Counter (PC), Data Register (DR), Accumulator (AC), Instruction Register (IR), Temporary Register (TR), Input Register (INPR), and Output Register (OUTR).
 
-Flip-flops: Seven flip-flops for various control purposes.
+&rarr;*Flip-flops:* Seven flip-flops for various control purposes.
 
-Decoders: Two decoders, a 3 x 8 decoder for opcode decoding and a 4 x 16 timing decoder for Sequence Counter (SC).
+&rarr;*Decoders:* Two decoders, a 3 x 8 decoder for opcode decoding and a 4 x 16 timing decoder for Sequence Counter (SC).
 
-Common Bus System: A 16-bit common bus for data transfer.
+&rarr;*Common Bus System:* A 16-bit common bus for data transfer.
 
-Control Logic Gates: Combinational circuits for controlling various operations.
+&rarr;*Control Logic Gates:* Combinational circuits for controlling various operations.
 
-Arithmetic and Logic Unit (ALU): Capable of performing operations like AND, ADD, Complement, Shift LEFT, Shift RIGHT, etc.
+&rarr;*Arithmetic and Logic Unit (ALU):* Capable of performing operations like AND, ADD, Complement, Shift LEFT, Shift RIGHT, etc.
 
-Clock: A common clock for synchronizing operations.
+&rarr;Clock: A common clock for synchronizing operations.
 
-Memory / RAM: The memory unit is a 4096 X 16 RAM chip where instructions and data are stored during program execution. Instructions are stored consecutively for efficient program execution.
+&rarr;Memory / RAM: The memory unit is a 4096 X 16 RAM chip where instructions and data are stored during program execution. Instructions are stored consecutively for efficient program execution.
 ## 
 ###### Computer Registers
 The computer uses eight registers, each serving a specific purpose, including storing addresses, data, instructions, and input/output characters.
@@ -89,3 +89,13 @@ Logisim is employed to simulate and visualize the functionality of the Basic Com
 &rarr; Load the provided circuit file (Main.circ).
 
 &rarr; Simulate the circuit to observe the Basic Computer's behavior.
+##
+### _Here is a view of Arithematic and Logic Unit of My Basic Computer_
+
+![Local Image](ALU.jpg)
+##
+### _Here is a view of Control Unit of My Basic Computer_
+![Local Image](Control-Unit.jpg)
+##
+### _Here is a view of My Basic Computer_
+![Local Image](Main.jpg)
