@@ -25,21 +25,21 @@ The Basic Computer comprises the following hardware components:
 ###### Computer Registers
 The computer uses eight registers, each serving a specific purpose, including storing addresses, data, instructions, and input/output characters.
 
-Address Register (AR): 12 bits, holds memory addresses.
+&rarr; *Address Register (AR):* 12 bits, holds memory addresses.
 
-Program Counter (PC): 12 bits, holds the address of the current instruction.
+&rarr; *Program Counter (PC):* 12 bits, holds the address of the current instruction.
 
-Data Register (DR): 16 bits, holds data read from memory.
+&rarr; *Data Register (DR):* 16 bits, holds data read from memory.
 
-Accumulator (AC): 16 bits, holds data from ALU operations.
+&rarr; *Accumulator (AC):* 16 bits, holds data from ALU operations.
 
-Instruction Register (IR): 16 bits, holds the instruction code.
+&rarr; *Instruction Register (IR):* 16 bits, holds the instruction code.
 
-Temporary Register (TR): 16 bits, holds temporary data.
+&rarr; *Temporary Register (TR):* 16 bits, holds temporary data.
 
-Input Register (INPR): 8 bits, holds input characters.
+&rarr; *Input Register (INPR):* 8 bits, holds input characters.
 
-Output Register (OUTR): 8 bits, holds output characters.
+&rarr; *Output Register (OUTR):* 8 bits, holds output characters.
 ## 
 ###### Common Bus System
 The common bus system facilitates efficient data transfer between registers and memory. It operates using selection lines S0, S1, and S2.
@@ -62,13 +62,13 @@ There are two types of modes in the instruction code:
 ###### Types of Instructions
 The Basic Computer has three instruction code formats:
 
-##### Memory-Reference Instructions
+##### Memory-Reference Instructions 
 These instructions include operations like AND, ADD, LDA, STA, BUN, BSA, and ISZ. Each operation is associated with specific micro-operations.
 
-##### Register-Reference Instructions
+* ##### Register-Reference Instructions
 There are 12 register-reference instructions, including CLA, CLE, CMA, CME, CIR, CIL, INC, SPA, SNA, SZA, SZE, and HLT. Each instruction is characterized by specific micro-operations affecting the Accumulator (AC) and other registers.
 
-##### Input/Output Reference Instructions
+* ##### Input/Output Reference Instructions
 These instructions involve input/output operations, including INP, OUT, SKI, SKO, ION, and IOF. They interact with Input and Output registers, as well as interrupt-related flags.
 ## 
 ###### Time and Control Unit
