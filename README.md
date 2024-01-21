@@ -33,7 +33,7 @@ Steps during a computer instruction execution:
 
 ### 6. Computer Hardware
 
-![Mapping](CO_IMAGE/Computer-Hardware.jpg)
+![Computer-Hardware](CO_IMAGE/Computer-Hardware.jpg)
 
 ### 7. Instruction Format
 
@@ -50,7 +50,7 @@ Examples:
 
 20 bits with F1, F2, F3, CD, BR, and AD fields.
 
-![Mapping](CO_IMAGE/Binary-Microprogram.jpg)
+![Binary-Microprogram](CO_IMAGE/Binary-Microprogram.jpg)
 
 ### 9. Subroutines
 
