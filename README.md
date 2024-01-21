@@ -67,7 +67,7 @@ Logisim is employed to simulate and visualize the functionality of the Basic Com
 #### Instructions for Simulation
 &rarr; Open Logisim.
 
-&rarr; Load the provided circuit file (Main.circ).
+&rarr; Load the provided circuit file (MAIN CIRCUIT.circ).
 
 &rarr; Simulate the circuit to observe the Basic Computer's behavior.
 ##
