@@ -29,11 +29,11 @@ Steps during a computer instruction execution:
 
 ### 5. Mapping of an Instruction
 
-![Mapping](image-link)
+![Mapping](CO_IMAGE/Mapping.jpg)
 
 ### 6. Computer Hardware
 
-Block diagram with main memory, control memory, registers (AC, PC, AR, DR, CAR, SBR), multiplexers, and ALU.
+![Mapping](CO_IMAGE/Computer-Hardware.jpg)
 
 ### 7. Instruction Format
 
@@ -49,6 +49,8 @@ Examples:
 ### 8. Micro-instruction Format
 
 20 bits with F1, F2, F3, CD, BR, and AD fields.
+
+![Mapping](CO_IMAGE/Binary-Microprogram.jpg)
 
 ### 9. Subroutines
 
@@ -69,15 +71,15 @@ Logisim is employed to simulate and visualize the functionality of the Basic Com
 
 &rarr; Simulate the circuit to observe the Basic Computer's behavior.
 ##
-### _Here is a view of Arithematic and Logic Unit of My Basic Computer_
+### Here is a view of Arithematic and Logic Unit of My Microprogrammed Control Computer
 
 ![Local Image](CO_IMAGE/ALU.jpg)
 ##
-### _Here is a view of Control Unit of My Basic Computer_
-![Local Image](CO_IMAGE/Control unit.jpg)
+### Here is a view of Control Unit of My Microprogrammed Control Computer
+![Local Image](CO_IMAGE/Control-unit.jpg)
 ##
-### _Here is a view of My Basic Computer_
-![Local Image](Main.jpg)
+### Here is a view of My Microprogrammed Control Computer
+![Local Image](CO_IMAGE/Computer.jpg)
 
 ## Contributors
 
@@ -87,5 +89,5 @@ Logisim is employed to simulate and visualize the functionality of the Basic Com
 
 ## Acknowledgments
 
-- Thanks to Dr. Alok Kumar (HOD, IT Department, UIET Kanpur) for helping through out wprking on this project.
+- Thanks to Dr. Alok Kumar (HOD, IT Department, UIET Kanpur) for helping through out working on this project.
 
