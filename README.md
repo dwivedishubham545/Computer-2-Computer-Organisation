@@ -59,6 +59,26 @@ Examples:
 - **EXCHANGE:** M[EA] <-> AC, NOP, Call Indirect, Read, Transfer to DR and AC, Write, Jump to Fetch.
 - **BRANCH:** If (AC < 0), PC <- EA, NOP, Jump to Fetch.
 
+#### Using Logisim
+Logisim is employed to simulate and visualize the functionality of the Basic Computer. It provides an intuitive toolbar interface and supports the design of digital logic circuits.
+
+#### Instructions for Simulation
+&rarr; Open Logisim.
+
+&rarr; Load the provided circuit file (Main.circ).
+
+&rarr; Simulate the circuit to observe the Basic Computer's behavior.
+##
+### _Here is a view of Arithematic and Logic Unit of My Basic Computer_
+
+![Local Image](CO_IMAGE/ALU.jpg)
+##
+### _Here is a view of Control Unit of My Basic Computer_
+![Local Image](CO_IMAGE/Control unit.jpg)
+##
+### _Here is a view of My Basic Computer_
+![Local Image](Main.jpg)
+
 ## Contributors
 
 - Shubham Dwivedi
